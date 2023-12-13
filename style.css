@@ -1,16 +1,40 @@
-body{
+html,
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
     background-color:hsl(30, 38%, 92%);
     width: 100vw;
     height: 100vh;
 }
+*{
+    box-sizing: border-box;
+}
 main{
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 45rem;
     height: 30rem;
-    background-color: black;
-    margin: 5rem 10rem;
-    padding: 5rem;
- 
+    margin: auto;
+    background-color: #f4ebe4;
 
 
+}
+.section-one{
+    width: 20rem;
+    height: 30rem;
+
+}
+.section-one img{
+width: 100%;
+height: 100%;
+border-radius:5px 0 0 5px ;
+}
+.section-two{
+    width: 20rem;
+    height: 30rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0 5px 5px 0;
 }

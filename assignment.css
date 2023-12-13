@@ -1,0 +1,19 @@
+body{
+    background-color:hsl(212, 23%, 69%);
+
+}
+main{
+    display: flex;
+    margin: 100px ;
+    font-size: 13px;
+    padding: 70px;
+    background-color: hsl(210, 46%, 95%);
+    width: 50rem;
+    height: 20rem;
+
+}
+section{
+    margin-left: 15px;
+    height: 10rem;
+    width:30rem ;
+}
